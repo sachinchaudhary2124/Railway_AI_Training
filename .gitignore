@@ -29,5 +29,3 @@ Thumbs.db
 # Python cache
 *.pyo
 *.pyd
-# Trained model weights
-models/*.pth
