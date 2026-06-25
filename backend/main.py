@@ -2,17 +2,17 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from backend.services.model_service import model_service
-from backend.utils.config import CORS_ALLOWED_ORIGINS, OUTPUT_DIR, GRADCAM_OUTPUT_DIR
-from backend.utils.middleware import (
+from services.model_service import model_service
+from utils.config import CORS_ALLOWED_ORIGINS, OUTPUT_DIR, GRADCAM_OUTPUT_DIR
+from utils.middleware import (
     RequestLoggingMiddleware, RateLimitingMiddleware, register_exception_handlers
 )
-from backend.api.auth import router as auth_router
-from backend.api.predict import router as predict_router
-from backend.api.history import router as history_router
-from backend.api.reports import router as reports_router
-from backend.api.routes import router as routes_router
-from backend.utils.logger import logger
+from api.auth import router as auth_router
+from api.predict import router as predict_router
+from api.history import router as history_router
+from api.reports import router as reports_router
+from api.routes import router as routes_router
+from utils.logger import logger
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
