@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Logs and runtime outputs
+*.log
+backend/logs/
+backend/outputs/
+backend/prediction_history.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/node_modules/.tmp/
+*.tsbuildinfo
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Environment files
+.env
+.env.*
+
+# Python cache
+*.pyo
+*.pyd
+# Trained model weights
+models/*.pth

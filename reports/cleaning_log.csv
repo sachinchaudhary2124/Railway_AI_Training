@@ -1,0 +1,164 @@
+original_path,class,status,reason,new_path
+dataset\raw\broken_rail\BrokenRail_05.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_001.jpg
+dataset\raw\broken_rail\BrokenRail_06.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_002.jpg
+dataset\raw\broken_rail\BrokenRail_07.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_003.jpg
+dataset\raw\broken_rail\BrokenRail_08.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_004.jpg
+dataset\raw\broken_rail\BrokenRail_09.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_005.jpeg
+dataset\raw\broken_rail\BrokenRail_10.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_006.jpg
+dataset\raw\broken_rail\BrokenRail_11.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_007.jpeg
+dataset\raw\broken_rail\BrokenRail_12.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_008.jpeg
+dataset\raw\broken_rail\BrokenRail_13.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_009.jpeg
+dataset\raw\broken_rail\BrokenRail_14.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_010.jpg
+dataset\raw\broken_rail\BrokenRail_15.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_011.jpeg
+dataset\raw\broken_rail\BrokenRail_16.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_012.jpeg
+dataset\raw\broken_rail\BrokenRail_17.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_013.jpeg
+dataset\raw\broken_rail\BrokenRail_18.jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_014.jpeg
+dataset\raw\broken_rail\BrokenRail_19.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_015.jpg
+dataset\raw\broken_rail\BrokenRail_20.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_016.jpg
+dataset\raw\broken_rail\BrokenRail_4.webp,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_017.webp
+dataset\raw\broken_rail\Broken_railroad_tracks_1.jpg,broken_rail,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'normal'])",
+dataset\raw\broken_rail\IMG_20201114_101134.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_018.jpg
+dataset\raw\broken_rail\azer2003120026fbtr.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_019.jpg
+dataset\raw\broken_rail\b17bf671d87cb6c9d6cfcd2aafc8e13a.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_020.jpg
+dataset\raw\broken_rail\download (1).jpeg,broken_rail,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\broken_rail\download (6).jpeg,broken_rail,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\broken_rail\es5n3o3y5cu11.jpg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_021.jpg
+dataset\raw\broken_rail\images (2).jpeg,broken_rail,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\broken_rail\images (7).jpeg,broken_rail,Kept,OK,dataset\cleaned\broken_rail\broken_rail_022.jpeg
+dataset\raw\broken_rail\img.jpg,broken_rail,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\crack\2007.05.16_-_002_Broken_rail_weld_-_Flickr_-_faxepl (1).jpg,crack,Kept,OK,dataset\cleaned\crack\crack_001.jpg
+dataset\raw\crack\2007.05.16_-_002_Broken_rail_weld_-_Flickr_-_faxepl.jpg,crack,Removed,Intra-class duplicate of crack/2007.05.16_-_002_Broken_rail_weld_-_Flickr_-_faxepl (1).jpg,
+dataset\raw\crack\6411009.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_002.jpg
+dataset\raw\crack\89e8b1a9ca8c41919021f8f4faaf37f0.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_003.jpg
+dataset\raw\crack\Crack_11.jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_004.jpeg
+dataset\raw\crack\Crack_12.webp,crack,Kept,OK,dataset\cleaned\crack\crack_005.webp
+dataset\raw\crack\Crack_13.avif,crack,Kept,OK,dataset\cleaned\crack\crack_006.avif
+dataset\raw\crack\Crack_14.jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_007.jpeg
+dataset\raw\crack\Crack_15.webp,crack,Kept,OK,dataset\cleaned\crack\crack_008.webp
+dataset\raw\crack\Crack_16.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_009.jpg
+dataset\raw\crack\Crack_17.webp,crack,Kept,OK,dataset\cleaned\crack\crack_010.webp
+dataset\raw\crack\Crack_18.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_011.jpg
+dataset\raw\crack\Crack_19.jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_012.jpeg
+dataset\raw\crack\Crack_20.jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_013.jpeg
+dataset\raw\crack\IMG_20201114_100344.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_014.jpg
+dataset\raw\crack\IMG_20201114_100346.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_015.jpg
+dataset\raw\crack\IMG_20201114_100356.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_016.jpg
+dataset\raw\crack\IMG_20201114_100358.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_017.jpg
+dataset\raw\crack\IMG_20201114_100407.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_018.jpg
+dataset\raw\crack\IMG_20201114_100416.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_019.jpg
+dataset\raw\crack\IMG_20201114_100904.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_020.jpg
+dataset\raw\crack\IMG_20201114_101019.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_021.jpg
+dataset\raw\crack\IMG_20201114_101121.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_022.jpg
+dataset\raw\crack\IMG_20201114_101124.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_023.jpg
+dataset\raw\crack\IMG_20201114_101130.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_024.jpg
+dataset\raw\crack\IMG_20201114_101138.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_025.jpg
+dataset\raw\crack\IMG_20201114_101143.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_026.jpg
+dataset\raw\crack\IMG_20201114_101148.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_027.jpg
+dataset\raw\crack\IMG_20201114_101149.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_028.jpg
+dataset\raw\crack\IMG_20201114_101157.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_029.jpg
+dataset\raw\crack\IMG_20201114_101820.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_030.jpg
+dataset\raw\crack\IMG_20201114_101823.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_031.jpg
+dataset\raw\crack\IMG_20201114_101830.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_032.jpg
+dataset\raw\crack\IMG_20201114_101835.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_033.jpg
+dataset\raw\crack\IMG_20201114_101952.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_034.jpg
+dataset\raw\crack\IMG_20201114_102004.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_035.jpg
+dataset\raw\crack\IMG_20201114_102009.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_036.jpg
+dataset\raw\crack\IMG_20201114_102011.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_037.jpg
+dataset\raw\crack\IMG_20201114_102019.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_038.jpg
+dataset\raw\crack\crack.jpg,crack,Removed,Intra-class duplicate of crack/2007.05.16_-_002_Broken_rail_weld_-_Flickr_-_faxepl (1).jpg,
+dataset\raw\crack\cracked-rail.webp,crack,Kept,OK,dataset\cleaned\crack\crack_039.webp
+dataset\raw\crack\damagetotrackfromcollisionlfb.jpg,crack,Kept,OK,dataset\cleaned\crack\crack_040.jpg
+dataset\raw\crack\dbb9223f7e652986a00c0dd8d8f1ccf8 (1).jpg,crack,Kept,OK,dataset\cleaned\crack\crack_041.jpg
+dataset\raw\crack\dbb9223f7e652986a00c0dd8d8f1ccf8.jpg,crack,Removed,Intra-class duplicate of crack/dbb9223f7e652986a00c0dd8d8f1ccf8 (1).jpg,
+dataset\raw\crack\download (1).jpeg,crack,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\crack\download (3).jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_042.jpeg
+dataset\raw\crack\download (4).jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_043.jpeg
+dataset\raw\crack\download (5).jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_044.jpeg
+dataset\raw\crack\download (6).jpeg,crack,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\crack\images (1).jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_045.jpeg
+dataset\raw\crack\images (2).jpeg,crack,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\crack\images (3).jpeg,crack,Kept,OK,dataset\cleaned\crack\crack_046.jpeg
+dataset\raw\crack\img.jpg,crack,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'crack'])",
+dataset\raw\normal\131004959_171473721383413_8222187747086021011_n.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_001.jpg
+dataset\raw\normal\131051004_382613492830631_1306891331783850055_n.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_002.jpg
+dataset\raw\normal\131065180_999185033824671_7735147288489715620_n.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_003.jpg
+dataset\raw\normal\131092897_149705809860659_8798464983059531038_n.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_004.jpg
+dataset\raw\normal\131098429_134147575143001_1246437012995704959_n.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_005.jpg
+dataset\raw\normal\131129946_140815574232570_8925999503657494497_n.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_006.jpg
+dataset\raw\normal\131348023_405054987354853_8834671660058234194_n.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_007.jpg
+dataset\raw\normal\Broken_railroad_tracks_1.jpg,normal,Removed,"Cross-class duplicate conflict (found in classes: ['broken_rail', 'normal'])",
+dataset\raw\normal\E116_8996 (1).jpg,normal,Kept,OK,dataset\cleaned\normal\normal_008.jpg
+dataset\raw\normal\E116_8996.jpg,normal,Removed,Intra-class duplicate of normal/E116_8996 (1).jpg,
+dataset\raw\normal\IMG_20201114_100134.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_009.jpg
+dataset\raw\normal\IMG_20201114_100159.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_010.jpg
+dataset\raw\normal\IMG_20201114_100202.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_011.jpg
+dataset\raw\normal\IMG_20201114_100206.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_012.jpg
+dataset\raw\normal\IMG_20201114_100209.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_013.jpg
+dataset\raw\normal\IMG_20201114_100215.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_014.jpg
+dataset\raw\normal\IMG_20201114_100220.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_015.jpg
+dataset\raw\normal\IMG_20201114_100226.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_016.jpg
+dataset\raw\normal\IMG_20201114_100230.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_017.jpg
+dataset\raw\normal\IMG_20201114_100242.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_018.jpg
+dataset\raw\normal\IMG_20201114_100245.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_019.jpg
+dataset\raw\normal\IMG_20201114_100248.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_020.jpg
+dataset\raw\normal\IMG_20201114_100250.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_021.jpg
+dataset\raw\normal\IMG_20201114_100259.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_022.jpg
+dataset\raw\normal\IMG_20201114_100301.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_023.jpg
+dataset\raw\normal\IMG_20201114_100303.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_024.jpg
+dataset\raw\normal\IMG_20201114_100315.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_025.jpg
+dataset\raw\normal\IMG_20201114_100324.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_026.jpg
+dataset\raw\normal\IMG_20201114_100325.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_027.jpg
+dataset\raw\normal\IMG_20201114_100447.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_028.jpg
+dataset\raw\normal\IMG_20201114_100549.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_029.jpg
+dataset\raw\normal\IMG_20201114_100946.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_030.jpg
+dataset\raw\normal\IMG_20201114_100947.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_031.jpg
+dataset\raw\normal\IMG_20201114_100950.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_032.jpg
+dataset\raw\normal\IMG_20201114_101537.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_033.jpg
+dataset\raw\normal\IMG_20201114_101539.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_034.jpg
+dataset\raw\normal\IMG_20201114_101612.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_035.jpg
+dataset\raw\normal\IMG_20201114_101614.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_036.jpg
+dataset\raw\normal\IMG_20201114_101628.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_037.jpg
+dataset\raw\normal\IMG_20201114_101630.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_038.jpg
+dataset\raw\normal\IMG_20201114_101633.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_039.jpg
+dataset\raw\normal\IMG_20201114_101637.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_040.jpg
+dataset\raw\normal\IMG_20201114_101907.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_041.jpg
+dataset\raw\normal\Images_09.jpeg,normal,Kept,OK,dataset\cleaned\normal\normal_042.jpeg
+dataset\raw\normal\Normal_01.jpeg,normal,Kept,OK,dataset\cleaned\normal\normal_043.jpeg
+dataset\raw\normal\Normal_02.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_044.jpg
+dataset\raw\normal\Normal_03.jpeg,normal,Kept,OK,dataset\cleaned\normal\normal_045.jpeg
+dataset\raw\normal\Normal_04.webp,normal,Kept,OK,dataset\cleaned\normal\normal_046.webp
+dataset\raw\normal\Normal_05.jpeg,normal,Kept,OK,dataset\cleaned\normal\normal_047.jpeg
+dataset\raw\normal\Normal_06.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_048.jpg
+dataset\raw\normal\Normal_07.webp,normal,Kept,OK,dataset\cleaned\normal\normal_049.webp
+dataset\raw\normal\Normal_08.jpeg,normal,Kept,OK,dataset\cleaned\normal\normal_050.jpeg
+dataset\raw\normal\Normal_10.webp,normal,Kept,OK,dataset\cleaned\normal\normal_051.webp
+dataset\raw\normal\Normal_11.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_052.jpg
+dataset\raw\normal\Normal_12.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_053.jpg
+dataset\raw\normal\Normal_13.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_054.jpg
+dataset\raw\normal\Normal_14.webp,normal,Removed,Intra-class duplicate of normal/Normal_07.webp,
+dataset\raw\normal\Normal_15.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_055.jpg
+dataset\raw\normal\Normal_16.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_056.jpg
+dataset\raw\normal\Normal_17.webp,normal,Kept,OK,dataset\cleaned\normal\normal_057.webp
+dataset\raw\normal\Normal_18.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_058.jpg
+dataset\raw\normal\Normal_19.jpg,normal,Kept,OK,dataset\cleaned\normal\normal_059.jpg
+dataset\raw\normal\Normal_20.webp,normal,Kept,OK,dataset\cleaned\normal\normal_060.webp
+dataset\raw\surface_wear\131084537_190751489449739_279862595635733772_n.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_001.jpg
+dataset\raw\surface_wear\Screenshot 2026-05-28 155643.png,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_002.png
+dataset\raw\surface_wear\Screenshot 2026-05-28 155917.png,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_003.png
+dataset\raw\surface_wear\maxresdefault.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_004.jpg
+dataset\raw\surface_wear\surface_wear10.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_005.jpg
+dataset\raw\surface_wear\surface_wear11.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_006.jpg
+dataset\raw\surface_wear\surface_wear12.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_007.jpg
+dataset\raw\surface_wear\surface_wear13.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_008.jpg
+dataset\raw\surface_wear\surface_wear14.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_009.jpg
+dataset\raw\surface_wear\surface_wear15.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_010.jpg
+dataset\raw\surface_wear\surface_wear16.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_011.jpg
+dataset\raw\surface_wear\surface_wear167jpg.jpeg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_012.jpeg
+dataset\raw\surface_wear\surface_wear18jpg.jpeg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_013.jpeg
+dataset\raw\surface_wear\surface_wear19jpg.jpeg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_014.jpeg
+dataset\raw\surface_wear\surface_wear20jpg.jpeg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_015.jpeg
+dataset\raw\surface_wear\surface_wear7.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_016.jpg
+dataset\raw\surface_wear\surface_wear8.jpg,surface_wear,Removed,Intra-class duplicate of surface_wear/maxresdefault.jpg,
+dataset\raw\surface_wear\surface_wear9.jpg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_017.jpg
+dataset\raw\surface_wear\wear_02.jpeg,surface_wear,Kept,OK,dataset\cleaned\surface_wear\surface_wear_018.jpeg
+dataset\raw\surface_wear\wear_03.jpeg,surface_wear,Removed,Intra-class duplicate of surface_wear/surface_wear167jpg.jpeg,

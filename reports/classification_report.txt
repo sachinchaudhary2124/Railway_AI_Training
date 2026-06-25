@@ -1,0 +1,28 @@
+==================================================
+BASELINE CNN CLASSIFICATION REPORT
+==================================================
+              precision    recall  f1-score   support
+
+ broken_rail       0.60      1.00      0.75         3
+       crack       0.67      0.67      0.67         6
+      normal       0.67      0.67      0.67         6
+surface_wear       0.00      0.00      0.00         3
+
+    accuracy                           0.61        18
+   macro avg       0.48      0.58      0.52        18
+weighted avg       0.54      0.61      0.57        18
+
+
+==================================================
+RESNET18 CLASSIFICATION REPORT
+==================================================
+              precision    recall  f1-score   support
+
+ broken_rail       0.60      1.00      0.75         3
+       crack       0.71      0.83      0.77         6
+      normal       1.00      0.67      0.80         6
+surface_wear       1.00      0.67      0.80         3
+
+    accuracy                           0.78        18
+   macro avg       0.83      0.79      0.78        18
+weighted avg       0.84      0.78      0.78        18

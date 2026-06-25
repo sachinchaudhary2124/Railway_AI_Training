@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-gray-200 font-sans antialiased overflow-x-hidden;
+    background-color: #0B1220;
+  }
+  
+  /* Custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #0B1220;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #1F2937;
+    border-radius: 9999px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #374151;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-card border border-gray-800/80 rounded-xl shadow-lg shadow-black/30 backdrop-blur-md;
+  }
+  
+  .btn-primary {
+    @apply bg-accent-blue hover:bg-accent-blue/90 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 shadow-md shadow-accent-blue/20 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-800 hover:bg-gray-700/90 text-gray-200 border border-gray-700 font-medium px-4 py-2 rounded-lg transition-all duration-200 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50;
+  }
+
+  .btn-danger {
+    @apply bg-accent-red hover:bg-accent-red/90 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 shadow-md shadow-accent-red/20 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50;
+  }
+  
+  .input-field {
+    @apply w-full bg-gray-900 border border-gray-800 rounded-lg px-3 py-2 text-white placeholder-gray-500 focus:outline-none focus:border-accent-blue transition-colors duration-200;
+  }
+}
+
+/* Custom transitions and utility animations */
+.glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.15);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.15);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.15);
+}
+
+/* Custom animation for scanning lines in abstract art */
+@keyframes scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.scan-line-anim {
+  animation: scanline 6s linear infinite;
+}
+
+/* Hide defaults for #root to enable full layout styling */
+#root {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  min-height: 100vh;
+}
