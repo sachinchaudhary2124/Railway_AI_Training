@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { 
   FiActivity, 
   FiCpu, 
@@ -16,23 +17,33 @@ export const Dashboard: React.FC = () => {
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [modelInfo, setModelInfo] = useState<ModelInfoResponse | null>(null);
   const [history, setHistory] = useState<HistoryListResponse | null>(null);
+  const [historyAuthRequired, setHistoryAuthRequired] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);
   const [apiError, setApiError] = useState<boolean>(false);
 
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
-        setApiError(false);
-        const [healthRes, modelRes, historyRes] = await Promise.all([
+        const [healthRes, modelRes] = await Promise.all([
           apiService.getHealth(),
           apiService.getModelInfo(),
-          apiService.getHistory(),
         ]);
         setHealth(healthRes);
         setModelInfo(modelRes);
-        setHistory(historyRes);
+        setApiError(false);
       } catch (err) {
         setApiError(true);
+      }
+
+      try {
+        const historyRes = await apiService.getHistory();
+        setHistory(historyRes);
+        setHistoryAuthRequired(false);
+      } catch (err) {
+        if (axios.isAxiosError(err) && err.response?.status === 401) {
+          setHistory(null);
+          setHistoryAuthRequired(true);
+        }
       } finally {
         setLoading(false);
       }
@@ -123,7 +134,7 @@ export const Dashboard: React.FC = () => {
           value={predictionsCount}
           icon={<FiDatabase className="text-lg" />}
           color="blue"
-          subtitle="Logs stored in local JSON database"
+          subtitle={historyAuthRequired ? "Authentication required to load logs" : "Logs stored in local JSON database"}
         />
 
         <StatCard

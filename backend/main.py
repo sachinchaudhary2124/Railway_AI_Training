@@ -3,7 +3,13 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from backend.services.model_service import model_service
-from backend.utils.config import CORS_ALLOWED_ORIGINS, OUTPUT_DIR, GRADCAM_OUTPUT_DIR
+from backend.utils.config import (
+    CORS_ALLOWED_ORIGINS,
+    CORS_ALLOWED_ORIGIN_REGEX,
+    EAGER_LOAD_MODEL,
+    OUTPUT_DIR,
+    GRADCAM_OUTPUT_DIR,
+)
 from backend.utils.middleware import (
     RequestLoggingMiddleware, RateLimitingMiddleware, register_exception_handlers
 )
@@ -28,13 +34,15 @@ async def lifespan(app: FastAPI):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     GRADCAM_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
-    try:
-        # Initialize and warm up the PyTorch model
-        model_service.initialize()
-    except Exception as e:
-        logger.critical(f"FATAL: Model initialization failed during startup: {str(e)}", exc_info=True)
-        # We still let the server start so health check APIs work and report failures,
-        # but predict routes will fail gracefully.
+    if EAGER_LOAD_MODEL:
+        try:
+            model_service.initialize()
+        except Exception as e:
+            logger.critical(f"FATAL: Model initialization failed during startup: {str(e)}", exc_info=True)
+            # We still let the server start so health check APIs work and report failures,
+            # but predict routes will fail gracefully.
+    else:
+        logger.info("Model loading is lazy. The checkpoint will load on the first prediction request.")
         
     yield
     
@@ -67,6 +75,7 @@ app.add_middleware(RateLimitingMiddleware)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=CORS_ALLOWED_ORIGINS,
+    allow_origin_regex=CORS_ALLOWED_ORIGIN_REGEX,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

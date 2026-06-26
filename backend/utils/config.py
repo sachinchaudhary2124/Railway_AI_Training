@@ -41,6 +41,8 @@ CORS_ALLOWED_ORIGINS = [
     ).split(",")
     if origin.strip()
 ]
+CORS_ALLOWED_ORIGIN_REGEX = os.getenv("CORS_ALLOWED_ORIGIN_REGEX", r"https://.*\.onrender\.com")
+EAGER_LOAD_MODEL = os.getenv("EAGER_LOAD_MODEL", "false").lower() == "true"
 
 # Rate Limiting (Token Bucket)
 RATE_LIMIT_BURST = 15  # Max request burst
